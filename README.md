@@ -42,7 +42,7 @@ Contains the subfolders for each trained model to store the trained model, train
 
 
 ### inference:
-Contains the response csv and json file with the added category from the trained model ```
+Contains the response csv and json file with the added category from the trained model.
 
 
 ### recipes:
@@ -54,7 +54,7 @@ sh recipes/inference.sh
 ```
 
 ## Training
-1. Start the training of RF model using.
+1. Start the training of RF model using. This automatically prepares the data and dump as pickle files at /data/file_name*.pkl
 ```
 python script_train.py
 ```
